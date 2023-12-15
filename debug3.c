@@ -10,7 +10,7 @@
 int main(int argc, char* argv[]){
   printf("%ld \n", INT_MAX);
   int n = INT_MAX;
-  int A[n];
+  int A[INT_MAX];
   int i = 0;
   while (i<n)
   A[i] = rand()%10;

@@ -27,24 +27,7 @@ int main() {
       printf("Enter two numbers: ");
       scanf("%d %d", &num1, &num2);
 
-      switch (operator) {
-        case '+':
-          result = add(num1, num2);
-          printf("Result: %d\n", result);
-          break;
-        case '-':
-          result = subtract(num1, num2);
-          printf("Result: %d\n", result);
-          break;
-        case '*':
-          result = multiply(num1, num2);
-          printf("Result: %d\n", result);
-          break;
-        case '/':
-          result = divide(num1, num2);
-          printf("Result: %d\n", result);
-          break;
-        default:
+     
           printf("Invalid operator. Try again.\n");
       }
     }
